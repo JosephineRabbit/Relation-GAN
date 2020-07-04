@@ -78,8 +78,4 @@ if __name__ == "__main__":
             bottom_image = np.asarray(transforms.Resize(
                 size=(int(top_image.shape[1] / bottom_image.shape[1] * bottom_image.shape[0]), top_image.shape[1]))(
                 ToPILImage()(bottom_image)))
-            final_image = np.concatenate((top_image, bottom_image))
-            # save compared video
-            compared_video_writer.write(final_image)
-            # next frame
-            success, frame = videoCapture.read()
+
