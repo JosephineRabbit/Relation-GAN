@@ -1,3 +1,7 @@
+#  Update RelationGAN for Long tailed Image Classification
+![image](https://github.com/JosephineRabbit/Relation-GAN/blob/master/relationgan%2B%2B.png)
+
+
 # RelationGAN
 Source Code for Our Paper "When Relation Networks meet GANs: Relation GANs with Triplet Loss"
 
